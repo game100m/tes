@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>บุคลากร - สาขาวิศวกรรมคอมพิวเตอร์</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      color: #fff;
+      text-align: center;
+      background: url('bg1-Large.jpeg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    header { padding: 80px 20px 40px; background: rgba(0,0,0,0.6); }
+    h1 { font-size: 48px; margin: 0; letter-spacing: 2px; text-shadow: 2px 2px 6px rgba(0,0,0,0.7); }
+    nav { margin-top: 40px; display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; }
+    nav a {
+      display: inline-block; padding: 14px 24px; color: #fff; text-decoration: none;
+      font-weight: bold; border-radius: 30px; background: rgba(255,255,255,0.1); transition: 0.3s;
+    }
+    nav a:hover { background: rgba(255,255,255,0.3); color: #ffeb3b; transform: scale(1.05); }
+
+    main { margin: 40px auto; max-width: 1000px; background: rgba(0,0,0,0.5); padding: 30px; border-radius: 12px; }
+    h2 { margin-top: 40px; border-bottom: 2px solid #ffeb3b; display: inline-block; padding-bottom: 5px; }
+
+    .staff-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .staff-card {
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .staff-card img {
+      width: 100%;
+      max-width: 180px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .staff-card h3 { margin: 5px 0; font-size: 18px; }
+    .staff-card p { margin: 3px 0; font-size: 14px; }
+    footer { margin-top: 60px; padding: 20px; background: rgba(0,0,0,0.6); font-size: 14px; color: #ddd; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>สาขาวิศวกรรมคอมพิวเตอร์</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="timeline.html">ประวัติสาขา</a>
+      <a href="domains.html">บุคลากร</a>
+      <a href="impact.html">แผนที่</a>
+      <a href="thailand.html">ข่าวสาร</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>หัวหน้าสาขา</h2>
+    <div class="staff-grid">
+      <div class="staff-card">
+        <img src="นางนงนาฎ ระวังวงศ์.jpg" alt="หัวหน้าสาขา">
+        <h4>ชื่อ-สกุล นางนงนาฎ ระวังวงศ์</h4>
+        <p>ตำแหน่ง: หัวหน้าสาขา</p>
+        <p>Email: อาจารย์,
+หัวหน้าสาขาวิศวกรรมคอมพิวเตอร์</p>
+      </div>
+    </div>
+
+    <h2>หัวหน้าหลักสูตร</h2>
+    <div class="staff-grid">
+      <div class="staff-card">
+        <img src="นายณัฐพล หนูฤทธิ.jpg" alt="หัวหน้าหลักสูตร">
+        <h4>ชื่อ-สกุล นายณัฐพล หนูฤทธิ</h4>
+        <p>ตำแหน่ง: อาจารย์,
+หัวหน้าหลักสูตรวิศวกรรมคอมพิวเตอร์</p>
+        <p>Email: nattapon.n@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="นายชนมภัทร รุณปักษ์.jpg" alt="หัวหน้าหลักสูตร">
+        <h4>ชื่อ-สกุล 	นายชนมภัทร รุณปักษ์</h4>
+        <p>ตำแหน่ง: อาจารย์,
+หัวหน้าหลักสูตรวิศวกรรมปัญญาประดิษฐ์และนวัตกรรมดิจิทัล</p>
+        <p>Email: chonmaphat.r@rmutsv.ac.th</p>
+      </div>
+    </div>
+
+    <h2>อาจารย์ประจำ</h2>
+    <div class="staff-grid">
+      <!-- ทำซ้ำ 11 คน -->
+      <div class="staff-card">
+        <img src="นางสาวปิยะพร มูลทองชุน.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล นางสาวปิยะพร มูลทองชุน</h4>
+        <p>ตำแหน่ง: ผู้ช่วยศาสตราจารย์</p>
+        <p>Email: piyaporn.m@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="ดร.กีรติ อินทวิเศษ.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล ดร.กีรติ อินทวิเศษ</h4>
+        <p>ตำแหน่ง: ผู้ช่วยศาสตราจารย์</p>
+        <p>Email: keerati.i@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="นายสุวิพล มหศักดิสกุล.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล นายสุวิพล มหศักดิสกุล</h4>
+        <p>ตำแหน่ง: ผู้ช่วยศาสตราจารย์</p>
+        <p>Email: suwipol.m@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="นายนราธร สังข์ประเสริฐ.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล นายนราธร สังข์ประเสริฐ</h4>
+        <p>ตำแหน่ง: ผู้ช่วยศาสตราจารย์,
+ผู้ช่วยคณบดีงานพัฒนานักศึกษาและศิษย์เก่าสัมพันธ์</p>
+        <p>Email: naratorn.s@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="นายสิทธิโชค อุ่นแก้ว.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล นายสิทธิโชค อุ่นแก้ว</h4>
+        <p>ตำแหน่ง: ผู้ช่วยศาสตราจารย์,
+ผู้อำนวยการสำนักวิทยบริการและเทคโนโลยีสารสนเทศ</p>
+        <p>Email: sittichok.a@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="ดร.เกสรา เพชรกระจ่าง.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล ดร.เกสรา เพชรกระจ่าง</h4>
+        <p>ตำแหน่ง: ผู้ช่วยศาสตราจารย์</p>
+        <p>Email: ketsara.p@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="นายสันติ สถิตวรรธนะ.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล นายสันติ สถิตวรรธนะ</h4>
+        <p>ตำแหน่ง: อาจารย์</p>
+        <p>Email: santi.s@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="ดร.อรรถพล คงหวาน.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล ดร.อรรถพล คงหวาน</h4>
+        <p>ตำแหน่ง: อาจารย์
+รองผู้อำนวยการสำนักวิทยบริการและเทคโนโลยีสารสนเทศ</p>
+        <p>Email: authapon.k@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="นายชัยสิทธิ์ ชูสงค์.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล นายชัยสิทธิ์ ชูสงค์</h4>
+        <p>ตำแหน่ง: อาจารย์</p>
+        <p>Email: chaisit.c@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="ดร.พงศกร เจริญเนตรกุล.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล ดร.พงศกร เจริญเนตรกุล</h4>
+        <p>ตำแหน่ง: ผู้ช่วยศาสตราจารย์,
+ผู้ช่วยคณบดีงานสารสนเทศ</p>
+        <p>Email: pongsagorn.ch@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="นายกิติศักดิ์ วัฒนกุล.jpg" alt="อาจารย์ประจำ">
+        <h4>ชื่อ-สกุล นายกิติศักดิ์ วัฒนกุล</h4>
+        <p>ตำแหน่ง: อาจารย์</p>
+        <p>Email: kitisak.w@rmutsv.ac.th
+</p>
+      </div>
+      
+      <!-- เพิ่มอีก 10 คนตามต้องการ -->
+    </div>
+
+    <h2>เจ้าหน้าที่</h2>
+    <div class="staff-grid">
+      <div class="staff-card">
+        <img src="นายชัยชุมพล ชูราษฎร์.jpg" alt="เจ้าหน้าที่">
+        <h4>ชื่อ-สกุล นายชัยชุมพล ชูราษฎร์</h4>
+        <p>ตำแหน่ง: วิศวกรสาขาวิศวกรรมคอมพิวเตอร์,
+หัวหน้างานกีฬา</p>
+        <p>Email: chaichumpon.c@rmutsv.ac.th</p>
+      </div>
+      <div class="staff-card">
+        <img src="นางนภาพร สมบูรณ์.jpg" alt="เจ้าหน้าที่">
+        <h4>ชื่อ-สกุล นางนภาพร สมบูรณ์</h4>
+        <p>ตำแหน่ง: เจ้าหน้าที่บริหารงานทั่วไป</p>
+        <p>Email: napaporn.s@rmutsv.ac.th</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
